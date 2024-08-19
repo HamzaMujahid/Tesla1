@@ -1,0 +1,213 @@
+<html>
+<title>Tesla</title>
+
+<head>
+  <meta charset: UTF-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv=”refresh” content="1">
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: white;
+    }
+
+    .hero-section {
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+    .section-title {
+      padding-top: 20px;
+      text-align: center;
+    }
+
+    .section-actions {
+      padding-bottom: 30px;
+    }
+
+
+    .hero-section#model3 {
+      background-image: url(2024-Tesla-Model-3-15.jpg);
+    }
+
+    .hero-section h1 {
+      font-size: 3.5em;
+      padding: 0;
+      margin: 0;
+    }
+
+    .hero-section h1:hover {
+      color: red;
+      transition-duration: 0.4s;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    .hero-section h3:hover {
+      color: red;
+      transition-duration: 0.4s;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    a {
+      transition-duration: 0.4s;
+      color: white;
+
+    }
+
+    a:hover {
+      color: red;
+      transform: rotateX(150deg);
+      transform: rotateY(150deg);
+      transition-duration: 0.4s;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    button {
+      transition-duration: 0.4s;
+      font-weight: bold;
+      border-radius: 5%;
+      border: none;
+      height: 3em;
+      width: 20em;
+    }
+
+    button.primary {
+      background-color: #3393ff;
+      color: white;
+    }
+
+    button.primary:hover {
+      background-color: white;
+      color: #3393ff;
+      cursor: pointer;
+      transform: rotateX(150deg);
+      transform: rotateY(150deg);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      outline: 3px solid #3393ff;
+      outline-offset: 7px;
+      resize: both;
+      overflow: auto;
+      animation-name: example2;
+      animation-duration: 2s;
+    }
+
+    button.secondary {
+      background-color: white;
+    }
+
+    button.secondary:hover {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      transform: rotateX(150deg);
+      transform: rotateY(150deg);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      resize: both;
+      overflow: auto;
+      outline: 3px solid white;
+      outline-offset: 7px;
+      animation-name: example;
+      animation-duration: 2s;
+    }
+
+    @keyframes example {
+      0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+
+      25% {
+        background-color: black;
+        left: 200px;
+        top: 0px;
+      }
+
+      50% {
+        background-color: white;
+        left: 200px;
+        top: 200px;
+      }
+
+      75% {
+        background-color: black;
+        left: 0px;
+        top: 200px;
+      }
+
+      100% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+    }
+
+    @keyframes example2 {
+      0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+
+      25% {
+        background-color: #3393ff;
+        left: 200px;
+        top: 0px;
+      }
+
+      50% {
+        background-color: white;
+        left: 200px;
+        top: 200px;
+      }
+
+      75% {
+        background-color: #3393ff;
+        left: 0px;
+        top: 200px;
+      }
+
+      100% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section id="model3" class="hero-section">
+    <div class="section-title">
+      <h1>Model 3</h1>
+      <h2><a
+          href="https://www.tesla.com/model3/design?financeModalTab=finance_options&financeProduct=finplat.AUTO_LOAN%3ALOAN%3ACT_PRIVATE#overview">1.99%
+          APR Financing Ending August 31</a>
+      </h2>
+      <h3>From $34,990</h3>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/model3/design#overview" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/drive?selectedModel=Model3" class="secondary">
+        <button type="submit" class="secondary">Demo Drive </button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
