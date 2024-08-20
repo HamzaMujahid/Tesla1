@@ -41,9 +41,32 @@
 
 
     .hero-section#model3 {
-      background-image: url(Tesla.jpg);
+      background-image: url(TeslaModel3.jpg);
     }
-
+    .hero-section#modely {
+      background-image: url(TeslaModelY.jpg);
+    }
+    .hero-section#modelx {
+      background-image: url(TeslaModelX.jpg);
+    }
+    .hero-section#models {
+      background-image: url(TeslaModelS.jpg);
+    }
+    .hero-section#cybertruck {
+      background-image: url(TeslaCybertruck.jpg);
+    }
+    .hero-section#solarpanels {
+      background-image: url(TeslaSolarPanels.jpg);
+    }
+    .hero-section#solarroof{
+      background-image: url(TeslaSolarRoof.png);
+    }
+    .hero-section#powerwall{
+      background-image: url(TeslaPowerwall.jpg);
+      }
+      .hero-section#accessories{
+        background-image: url(TeslaAccessories.png);
+      }
     .hero-section h1 {
       font-size: 3.5em;
       padding: 0;
@@ -51,17 +74,21 @@
     }
 
     .hero-section h1:hover {
-      color: red;
+      color: #3393ff;
       transition-duration: 0.4s;
-      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
     .hero-section h3:hover {
-      color: red;
+      color: #3393ff;
       transition-duration: 0.4s;
-      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
-
+    .hero-section h2:hover {
+      color: #3393ff;
+      transition-duration: 0.4s;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
     a {
       transition-duration: 0.4s;
       color: white;
@@ -69,9 +96,7 @@
     }
 
     a:hover {
-      color: red;
-      transform: rotateX(150deg);
-      transform: rotateY(150deg);
+      color: #3393ff;
       transition-duration: 0.4s;
       text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     }
@@ -94,8 +119,6 @@
       background-color: white;
       color: #3393ff;
       cursor: pointer;
-      transform: rotateX(150deg);
-      transform: rotateY(150deg);
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       outline: 3px solid #3393ff;
       outline-offset: 7px;
@@ -113,8 +136,6 @@
       background-color: black;
       color: white;
       cursor: pointer;
-      transform: rotateX(150deg);
-      transform: rotateY(150deg);
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       resize: both;
       overflow: auto;
@@ -187,6 +208,9 @@
         top: 0px;
       }
     }
+    #table table, tr, td, th{
+      border: 0;
+    }
   </style>
 </head>
 
@@ -209,5 +233,125 @@
       </form>
     </div>
   </section>
+  <section id="modely" class="hero-section">
+    <div class="section-title">
+      <h1>Model Y</h1>
+      <h2><a
+          href="https://www.tesla.com/modely/design?financeModalTab=finance_options&financeProduct=finplat.AUTO_LOAN%3ALOAN%3ACT_PRIVATE#overview">1.99%
+          APR Financing Ending August 31</a>
+      </h2>
+      <h3>From $31,490</h3>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/modely/design#overview" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/drive?selectedModel=modely" class="secondary">
+        <button type="submit" class="secondary">Demo Drive </button>
+      </form>
+    </div>
+  </section>
+  <section id="modelx" class="hero-section">
+    <div class="section-title">
+      <h1>Model X</h1>
+      <h2>From $65,990</h2>
+      <h3><a href="Tesla.com">After Federal Tax Credit $7,500<br> and Est. Gas Savings $6,500</a>
+    </h3>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/modelx/design#overview" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/drive?selectedModel=modelx" class="secondary">
+        <button type="submit" class="secondary">Demo Drive </button>
+      </form>
+  </section>
+  <Section id="models" class="hero-section">
+    <div class="section-title">
+      <h1>Model S</h1>
+      <h2>From $68,490</h2>
+      <h3><a href="https://www.tesla.com/">After Est. Gas Savings $6,500</a>
+      </h3>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/models/design#overview" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/drive?selectedModel=models" class="secondary">
+        <button type="submit" class="secondary">Demo Drive </button>
+      </form>
+  </Section>
+  <Section id="cybertruck" class="hero-section">
+    <div class="section-title">
+      <h1></h1>
+      <h2></h2>
+      <h3><a href="https://www.tesla.com/"></a>
+      </h3>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/cybertruck/design#overview" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/cybertruck" class="secondary">
+        <button type="submit" class="secondary">Learn More</button>
+      </form>
+  </Section>
+  <Section id="solarpanels" class="hero-section">
+    <div class="section-title">
+      <h1>Solar Panels</h1>
+      <h2></h2>
+      <h2><a href="https://www.tesla.com/">Schedule a Virtual Consultation</a>
+      </h2>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/energy/design" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/solarpanels" class="secondary">
+        <button type="submit" class="secondary">Learn More</button>
+      </form>
+  </Section>
+  <Section id="solarroof" class="hero-section">
+    <div class="section-title">
+      <h1>Solar Roof</h1>
+      <h2>Produce Clean Energy From Your Roof</h2>
+      <h2><a href="https://www.tesla.com/"></a>
+      </h2>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/energy/design" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/solarroof" class="secondary">
+        <button type="submit" class="secondary">Learn More</button>
+      </form>
+  </Section>
+  <Section id="powerwall" class="hero-section">
+    <div class="section-title">
+      <h1>Powerwall</h1>
+      <h2></h2>
+      <h2><a href="https://www.tesla.com/"></a>
+      </h2>
+    </div>
+    <div class="section-actions">
+      <form action="https://www.tesla.com/powerwall/design" class="primary">
+        <button type="submit" class="primary">Order Now</button>
+      </form>
+      <form action="https://www.tesla.com/powerwall" class="secondary">
+        <button type="submit" class="secondary">Learn More</button>
+      </form>
+  </Section>
+  <Section id="accessories" class="hero-section">
+    <div class="section-title">
+      <h1>Accessories</h1>
+      <h2></h2>
+      <h2><a href="https://www.tesla.com/"></a>
+      </h2>
+    </div>
+    <div class="section-actions">
+      <form action="https://shop.tesla.com/" class="primary">
+        <button type="submit" class="primary">Shop Now</button>
+      </form>
+  </Section>
 </body>
 </html>
