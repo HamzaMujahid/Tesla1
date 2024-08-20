@@ -30,6 +30,20 @@
 
     }
 
+    .info-section {
+      width: 100%;
+      height: 75vh;
+      background-size: cover;
+      text-align: center;
+      font-size: 85%;
+      line-height: 20px;
+    }
+
+    hr {
+      border-color: black;
+      background-color: black;
+    }
+
     .section-title {
       padding-top: 20px;
       text-align: center;
@@ -43,30 +57,43 @@
     .hero-section#model3 {
       background-image: url(TeslaModel3.jpg);
     }
+
     .hero-section#modely {
       background-image: url(TeslaModelY.jpg);
     }
+
     .hero-section#modelx {
       background-image: url(TeslaModelX.jpg);
     }
+
     .hero-section#models {
       background-image: url(TeslaModelS.jpg);
     }
+
     .hero-section#cybertruck {
       background-image: url(TeslaCybertruck.jpg);
     }
+
     .hero-section#solarpanels {
       background-image: url(TeslaSolarPanels.jpg);
     }
-    .hero-section#solarroof{
+
+    .hero-section#solarroof {
       background-image: url(TeslaSolarRoof.png);
     }
-    .hero-section#powerwall{
+
+    .hero-section#powerwall {
       background-image: url(TeslaPowerwall.jpg);
-      }
-      .hero-section#accessories{
-        background-image: url(TeslaAccessories.png);
-      }
+    }
+
+    .hero-section#accessories {
+      background-image: url(TeslaAccessories.png);
+    }
+
+    .info-section#info {
+      background-color: black;
+    }
+
     .hero-section h1 {
       font-size: 3.5em;
       padding: 0;
@@ -84,11 +111,13 @@
       transition-duration: 0.4s;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
+
     .hero-section h2:hover {
       color: #3393ff;
       transition-duration: 0.4s;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
+
     a {
       transition-duration: 0.4s;
       color: white;
@@ -98,7 +127,6 @@
     a:hover {
       color: #3393ff;
       transition-duration: 0.4s;
-      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     }
 
     button {
@@ -119,7 +147,6 @@
       background-color: white;
       color: #3393ff;
       cursor: pointer;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       outline: 3px solid #3393ff;
       outline-offset: 7px;
       resize: both;
@@ -136,7 +163,6 @@
       background-color: black;
       color: white;
       cursor: pointer;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       resize: both;
       overflow: auto;
       outline: 3px solid white;
@@ -208,7 +234,11 @@
         top: 0px;
       }
     }
-    #table table, tr, td, th{
+
+    #table table,
+    tr,
+    td,
+    th {
       border: 0;
     }
   </style>
@@ -256,7 +286,7 @@
       <h1>Model X</h1>
       <h2>From $65,990</h2>
       <h3><a href="Tesla.com">After Federal Tax Credit $7,500<br> and Est. Gas Savings $6,500</a>
-    </h3>
+      </h3>
     </div>
     <div class="section-actions">
       <form action="https://www.tesla.com/modelx/design#overview" class="primary">
@@ -353,5 +383,50 @@
         <button type="submit" class="primary">Shop Now</button>
       </form>
   </Section>
+  <Section id="info" class="info-section">
+    <h5>
+      <hr>
+      <lighter>1 Price before estimated savings is $44,130, including Destination and Order Fees, but excluding taxes<br>
+        and
+        other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings<br>
+        includes $5,000 in <u>gas savings</u> estimated over five years, the $7,500 Federal Tax Credit and state<br>
+        incentives,
+        available to eligible buyers and subject to MSRP caps. Model 3 Rear-Wheel Drive and leases not<br> eligible for
+        the Federal Tax Credit. <u>Terms apply</u>.<br>
+        <hr>
+
+        2 Price before estimated savings is $46,630, including Destination and Order Fees, but excluding taxes and<br>
+        other
+        fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings<br> includes
+        $6,000 in <u>gas savings</u> estimated over five years, the $7,500 Federal Tax Credit and state<br> incentives,
+        available
+        to
+        eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance<br> options will be eligible.
+        <u>Terms
+          apply</u>.<br>
+        <hr>
+
+        3 Price before estimated savings is $81,630, including Destination and Order Fees, but excluding taxes and<br>
+        other
+        fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings<br> includes
+        $6,500 in <u>gas savings</u> estimated over five years, the $7,500 Federal Tax Credit and state<br> incentives,
+        available
+        to
+        eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance<br> options will be eligible.
+        <u>Terms Apply</u>.<br>
+        <hr>
+
+        4 Price before estimated savings is $76,630, including Destination and Order Fees, but excluding taxes<br> and
+        other
+        fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings<br> includes
+        $6,500 in <u>gas savings</u> estimated over five years and state incentives, available to eligible buyers<br> and
+        subject
+        to
+        MSRP caps. Not all vehicles, customers or finance options will be eligible. <u>Terms apply</u>.<br>
+      </lighter>
+      <hr>
+    </h5>
+  </Section>
 </body>
+
 </html>
